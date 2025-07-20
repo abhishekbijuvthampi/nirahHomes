@@ -2,3 +2,14 @@
     margin: 0;
     padding: 0;
 }
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    height: 5%;
+}
+body{
+    background-color: black;
+}
+.logo{
+    height: 40%;
+}
