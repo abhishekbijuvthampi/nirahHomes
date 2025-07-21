@@ -6,6 +6,7 @@
     display: flex;
     justify-content: space-around;
     height: 5%;
+    background-color: rgb(57, 86, 70);
 }
 body{
     background-color: black;
