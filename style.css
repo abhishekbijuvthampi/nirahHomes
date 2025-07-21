@@ -4,6 +4,7 @@
 }
 nav{
     height:12vh;
+    display: none;
 }
 .navbar{
     width: 100vw;
@@ -21,6 +22,7 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
     background-color: rgb(57, 86, 70);
 }
 .nd-main{
@@ -29,19 +31,21 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(234, 234, 234, 0);
+    background-color: rgba(234, 234, 234, 0.701);
 }
-.img-track{
+#img-track{
     display: flex;
+    width: 50vw;
     gap: 4vmin;
     position: absolute;
     left: 50%;
     top: 40%;
+    overflow: hidden;
+    transform: translate(-20%,-50%);
 }
-.img-track > img{
-    height: 40vh;
-    width: 30vh;
-    transform: translate(0,-40%);
+#img-track > img{
+    height: clamp(25rem,25rem,35rem);
+    width: clamp(20rem,20rem,35rem);
     object-fit: cover;
     object-position: center;
 }
