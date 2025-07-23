@@ -4,19 +4,41 @@
 }
 nav{
     height:12vh;
-    display: none;
+    /* display: none; */
 }
 .navbar{
     width: 100vw;
     display: flex;
     height: 100%;
-    justify-content: space-around;
-    background-color: rgb(57, 86, 70);
+    justify-content: space-between;
+    /* background-color: rgb(57, 86, 70); */
 }
 .logo{
-    height: 75%;
+    height: 100%;
 }
-.notable-destinations{
+.menu{
+    display: flex;
+    align-self: center;
+    padding-right: 3%;
+}
+.hero-section{
+    background-image: url(images/nirahBackground.webp);
+    width: 100vw;
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.quote{
+    display: flex;
+    color: aliceblue;
+    font-size: 2.5rem;
+    font-style: italic;
+}
+/* .notable-destinations{
     height: 100vh;
     width: 100vw;
     display: flex;
@@ -47,4 +69,4 @@ nav{
     width: clamp(20rem,20rem,35rem);
     object-fit: cover;
     object-position: center;
-}
+} */
