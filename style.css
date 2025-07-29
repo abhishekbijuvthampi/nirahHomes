@@ -178,3 +178,26 @@
 .thumbnail .item .content .title{
     font-weight: 500;
 }
+
+.plan-sec{
+    height: 400vh;
+    width: 100%;
+    background-color: #f4fade;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.room{
+    height: 19.5%;
+    width: 60%;
+    background-color: aqua;
+    object-fit: contain;
+}
+.plan{
+    height: 15%;
+    width: 35%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-self: center;
+    object-fit: contain;
+}
