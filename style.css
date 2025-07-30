@@ -285,9 +285,11 @@
 
 .plan-sec {
   width: 100%;
+  height: auto;
   background-color: #f4fade;
   display: flex;
   flex-direction: column;
+  /* justify-content: center; */
   align-items: center;
   padding-bottom: 50px;
 }
@@ -296,13 +298,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin:20px 0 0 20px;
   width: 95%;
+  margin: 20px auto 0 auto; 
 }
+
 
 .room {
   width: 100%;
-  aspect-ratio: 2/1;
+  aspect-ratio: 1/1;
   object-fit: cover;
   object-position: center;
 }
@@ -329,9 +332,15 @@
   .room-n-plan {
     flex-direction: row;
     justify-content: space-between;
+    height: auto;
     gap: 40px;
   }
-
+  .inverse-room-n-plan{
+    flex-direction: row-reverse;
+  }
+  .plan-sec{
+    height: auto;
+  }
   .room,
   .plan-n-name {
     width: 47%;
