@@ -28,12 +28,6 @@
     align-items: center;
     color: white;
 }
-@media (min-width:766px){
-    .hero-section{
-        background-image: url(nirahPhotos/pcFront.jpeg);
-    }
-    
-}
 .menu-section{
     height: 100vh;
     width: 100%;
