@@ -316,7 +316,16 @@
   aspect-ratio: 1/1;
   object-fit: cover;
   border-radius: .5rem;
-  object-position: center;
+  animation: appear 5s linear;
+}
+
+@keyframes appear{
+    from{
+        object-position: center 0%;
+    }
+    to{
+        object-position: center 100%;
+    }
 }
 
 .plan-n-name {
