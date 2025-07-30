@@ -158,7 +158,6 @@
     color: #ffffff;
     text-shadow: -1px 1px 3px black;
     background-color: #5c5c5c5b;
-    backdrop-filter: blur(4px);
 }
 
 .carousel .list .item .title{
@@ -240,6 +239,19 @@
 }
 
 /* animation text in first item */
+
+.carousel .list .item .content{
+    backdrop-filter: blur(0px);
+    opacity: 0;
+    animation: showBlur .1s .5s linear 1 forwards;
+}
+@keyframes showBlur{
+    to{
+        backdrop-filter: blur(4px);
+        opacity: 1;
+    }
+}
+
 .carousel .list .item:nth-child(1) .content .title,
 .carousel .list .item:nth-child(1) .content .des{
     transform: translateY(50px);
@@ -261,6 +273,7 @@
     animation-delay: 0.6s!important;
 }
 /* create animation when next click */
+
 .carousel.next .list .item:nth-child(1) img{
     width: 150px;
     height: 220px;
@@ -280,22 +293,6 @@
     }
 }
 
-
-#toggle:next ~ .carousel .list .item .content{
-    animation: showBorder 2s linear ;
-}
-@keyframes showBorder{
-    0%{
-        opacity: 100%;
-    }
-    50%{
-        opacity: 0;
-    }
-    100%{
-        opacity: 100%;
-    }
-
-}
 .carousel.next .thumbnail .item:nth-last-child(1){
     overflow: hidden;
     animation: showThumbnail .5s linear 1 forwards;
