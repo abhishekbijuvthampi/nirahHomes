@@ -94,7 +94,7 @@
 }
 .overview p{
     font-size: clamp(100%,1.5vw,2.5vw);
-    text-align: center;
+    text-align: left;
     display: flex;
     align-items: center;
 }
