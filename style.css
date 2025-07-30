@@ -140,12 +140,15 @@
     color: #fff;
     text-shadow: 0 5px 10px #0004;
 }
-.carousel .list .item .title,
-.carousel .list .item .topic{
-    font-size: 5em;
+.carousel .list .item .title{
+    font-size: clamp(2em,3em,5em);
     font-weight: bold;
     line-height: 1.3em;
 }
+.carousel .list .item .des{
+    font-size: clamp(10px,20px,30px);
+}
+
 
 /* thumbail */
 .thumbnail{
@@ -158,8 +161,8 @@
     gap: 20px;
 }
 .thumbnail .item{
-    width: 150px;
-    height: 220px;
+    width: clamp(100px,130px,150px);
+    height: clamp(180px,200px,220px);
     flex-shrink: 0;
     position: relative;
 }
