@@ -84,6 +84,8 @@
     height: 75%;
     display: flex;
     flex-wrap: wrap;
+    animation: appear linear;
+    animation-timeline: view();
 }
 .overview h1{
     height: 10%;
