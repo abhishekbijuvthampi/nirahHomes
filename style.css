@@ -316,15 +316,16 @@
   aspect-ratio: 1/1;
   object-fit: cover;
   border-radius: .5rem;
-  animation: appear 5s linear;
+  animation: appear linear;
+  animation-timeline: view();
 }
 
 @keyframes appear{
     from{
-        object-position: center 0%;
+        object-position: center 50%;
     }
     to{
-        object-position: center 100%;
+        object-position: center 70%;
     }
 }
 
