@@ -17,7 +17,7 @@
     padding-right: 2%;
 }
 .quote{
-    font-size: clamp(200%,3vw,4vw);
+    font-size: clamp(150%,2.5vw,3vw);
 
 }
 .hero-section{
