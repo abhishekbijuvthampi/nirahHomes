@@ -89,6 +89,7 @@
     height: 10%;
     width: 100%;
     display: flex;
+    justify-content: center;
     align-items: center;
     padding-left: 4%;
     font-size: clamp(200%,3vw,4vw);
