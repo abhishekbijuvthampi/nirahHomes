@@ -322,7 +322,7 @@
 
 @keyframes appear{
     from{
-        object-position: center 40%;
+        object-position: center 20%;
     }
     to{
         object-position: center 80%;
