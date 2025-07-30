@@ -59,6 +59,14 @@
 }
 .menu-section-close svg{
     height: clamp(1.25rem,4vw,2rem);
+
+}
+.menu-section-close svg:hover{
+    fill:  #b3b3b3;
+}
+.menu-section a:hover{
+    text-decoration: none;
+    color:  #b3b3b3;
 }
 .notable-destinations{
     height: 100vh;
