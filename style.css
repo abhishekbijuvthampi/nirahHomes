@@ -341,7 +341,6 @@
 }
 
 .footer-dark {
-    height: 60vh;
     padding: 50px 0;
     color: #f0f0f0;
     background-color: #2c2c2c;
@@ -352,7 +351,6 @@
     max-width: 1100px;
     margin: 0 auto;
     padding: 0 20px;
-    height: 80%;
 }
 
 .footer-dark .row {
@@ -401,9 +399,6 @@
 
 .footer-dark .copyright {
     text-align: center;
-    display: flex;
-    justify-content: center;
-    align-self: flex-end;
     padding-top: 20px;
     font-size: 14px;
     color: #bbb;
