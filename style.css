@@ -16,6 +16,10 @@
     align-self: center;
     padding-right: 2%;
 }
+.quote{
+    font-size: clamp(200%,3vw,4vw);
+
+}
 .hero-section{
     background-image: url(nirahPhotos/pcFront.jpeg);
     width: 100%;
