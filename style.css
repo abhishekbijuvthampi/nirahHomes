@@ -17,7 +17,7 @@
     padding-right: 2%;
 }
 .hero-section{
-    background-image: url(images/nirahBackground.webp);
+    background-image: url(nirahPhotos/front.jpeg);
     width: 100%;
     height: 100vh;
     background-position: center;
@@ -26,12 +26,13 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    color: white;
 }
-.quote{
-    display: flex;
-    color: aliceblue;
-    font-size: clamp(1.5rem,4vw,3rem);
-    font-style: italic;
+@media (min-width:766px){
+    .hero-section{
+        background-image: url(nirahPhotos/pcFront.jpeg);
+    }
+    
 }
 .menu-section{
     height: 100vh;
