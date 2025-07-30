@@ -143,14 +143,18 @@
     width: 1140px;
     padding: 20px;
     max-width: 80%;
+    height: 20%;
     left: 50%;
-    border-radius: 5px;
+    border-radius: 10px;
     transform: translateX(-50%);
     padding-right: 30%;
     box-sizing: border-box;
     color: #ffffff;
-    text-shadow: 1px 1px 2px black, 0 0 5px rgb(0, 0, 0);
+    text-shadow: -1px 1px 3px black;
+    background-color: #5c5c5c5b;
+    backdrop-filter: blur(4px);
 }
+
 .carousel .list .item .title{
     font-size: clamp(1em,2.5em,5em);
     font-weight: bold;
@@ -181,7 +185,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 20px;
+    border-radius: 10px;
     box-shadow: 0 0 5px 1px rgba(255, 255, 255, 0.53);
 }
 .thumbnail .item .content{
@@ -230,7 +234,6 @@
 }
 
 /* animation text in first item */
-
 .carousel .list .item:nth-child(1) .content .title,
 .carousel .list .item:nth-child(1) .content .des{
     transform: translateY(50px);
@@ -271,6 +274,22 @@
     }
 }
 
+
+#toggle:next ~ .carousel .list .item .content{
+    animation: showBorder 2s linear ;
+}
+@keyframes showBorder{
+    0%{
+        opacity: 100%;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 100%;
+    }
+
+}
 .carousel.next .thumbnail .item:nth-last-child(1){
     overflow: hidden;
     animation: showThumbnail .5s linear 1 forwards;
