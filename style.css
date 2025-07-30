@@ -4,12 +4,12 @@
 }
 .navbar{
     position: fixed;
-    width: 99vw;
+    width: 100vw;
     z-index: 999;
     height: 10vh;
     display: flex;
-    background-color: rgba(254, 254, 254, 0.395);
-    backdrop-filter: blur(3px);
+    background-color: rgba(84, 84, 84, 0.395);
+    backdrop-filter: blur(4px);
     justify-content: space-between;
 }
 .logo{
@@ -73,7 +73,8 @@
 }
 .overview{
     background-color: #f4fade;
-    height: 95vh;
+    padding-top: 10vh;
+    height: 80vh;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
